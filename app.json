@@ -1,30 +1,44 @@
 {
   "expo": {
-    "name": "Emergency app to alert loved and selected ones when in need for medical attention",
-    "slug": "Save-Me",
-    "privacy": "public",
-    "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Save Me",
+    "description": "Panic button,geofencing and medication reminder",
+    "slug": "snack-b2039367-4b74-4e17-ac6a-db77a1aace75",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "primaryColor": "#000000",
+    "icon": "./assets/logo.png",
+	"splash":{
+		"image":"./assets/logo.png",
+		"backgroundColor": "#000000"
+	},
+    "loading": {
+      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "hideExponentText": false
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
+      "bundleIdentifier": "in.ac.mechyd.saveme",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android":{
+      "package": "in.ac.mechyd.saveme",
+	  "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyAWE-98m-42UAr0x11HJ6UMYTXfLn6dAaA"
+      }
+    },
+      "googleServicesFile": "./assets/google-services.json",
+      "versionCode": 1
     }
   }
 }

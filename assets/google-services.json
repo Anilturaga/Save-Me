@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "292159768185",
+    "firebase_url": "https://saveme-d1046.firebaseio.com",
+    "project_id": "saveme-d1046",
+    "storage_bucket": "saveme-d1046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292159768185:android:839b683a1f2a5f923bb6a8",
+        "android_client_info": {
+          "package_name": "in.ac.mechyd.saveme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292159768185-5icd5buhtrpeav94rffs92r65eqjavcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrti9ZM37VoBVIy9VSqZW7XXSWtrO8mxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292159768185-5icd5buhtrpeav94rffs92r65eqjavcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
